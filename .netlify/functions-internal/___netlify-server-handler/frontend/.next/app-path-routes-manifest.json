@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/bookings/[id]/page": "/bookings/[id]",
+  "/bookings/[id]/seat/page": "/bookings/[id]/seat",
+  "/bookings/page": "/bookings",
+  "/cancel/page": "/cancel",
+  "/checkin/page": "/checkin",
+  "/checkout/page": "/checkout",
+  "/favicon.ico/route": "/favicon.ico",
+  "/help/page": "/help",
+  "/login/page": "/login",
+  "/loyalty/page": "/loyalty",
+  "/offers/page": "/offers",
+  "/page": "/",
+  "/payment/page": "/payment",
+  "/register/page": "/register",
+  "/search/page": "/search",
+  "/status/page": "/status",
+  "/sucess/page": "/sucess"
+}
