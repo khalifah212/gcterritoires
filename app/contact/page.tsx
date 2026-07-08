@@ -141,7 +141,7 @@ export default function ContactPage() {
                   <Info
                     icon={<Mail size={18}/>}
                     title="Email"
-                    text="gabriel.cruzillac@gcterritoires.fr
+                    text="gabriel.cruzillac@gcterritoires.fr"
                   />
 
 
