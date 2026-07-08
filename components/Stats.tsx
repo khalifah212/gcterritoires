@@ -1,46 +1,32 @@
 export default function Stats() {
-  const stats = [
-    ["120+", "Countries"],
-    ["5M+", "Travelers"],
-    ["99%", "Satisfaction"],
-  ];
-
   return (
-    <section
-      className="
-      ml-[92px]
-      px-20
-      py-20
-    "
-    >
-      <div
-        className="
-        rounded-[40px]
-        bg-gradient-to-r
-        from-[#10283A]
-        to-[#09131E]
-        p-20
-      "
-      >
-        <div className="grid lg:grid-cols-3">
+    <section className="border-t border-gray-100 py-24 fade">
 
-          {stats.map(([n, t]) => (
-            <div
-              key={t}
-              className="text-center"
-            >
-              <div className="text-7xl text-[#C6A46A]">
-                {n}
-              </div>
+      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center">
 
-              <div className="mt-4 text-white/60">
-                {t}
-              </div>
-            </div>
-          ))}
-
+        <div>
+          <p className="text-5xl font-light">120+</p>
+          <p className="text-gray-500 mt-2 text-sm uppercase tracking-widest">
+            Projets
+          </p>
         </div>
+
+        <div>
+          <p className="text-5xl font-light">15 ans</p>
+          <p className="text-gray-500 mt-2 text-sm uppercase tracking-widest">
+            Expertise
+          </p>
+        </div>
+
+        <div>
+          <p className="text-5xl font-light">40+</p>
+          <p className="text-gray-500 mt-2 text-sm uppercase tracking-widest">
+            Territoires
+          </p>
+        </div>
+
       </div>
+
     </section>
   );
 }
