@@ -227,7 +227,7 @@ export default function Footer() {
                 </p>
 
                 <p className="mt-1">
-                  contact@gcterritoires.fr
+                 gabriel.cruzillac@gcterritoires.fr
                 </p>
 
               </div>
