@@ -12,7 +12,7 @@ const links = [
     label: "Accueil",
   },
   {
-    href: "/cabinet",
+    href: "/Notre-approche",
     label: "Notre approche",
   },
   {
@@ -20,8 +20,8 @@ const links = [
     label: "Expertises",
   },
   {
-    href: "/fondateur",
-    label: "Le fondateur",
+    href: "/Gabriel-Cruzillac",
+    label: "Gabriel Cruzillac",
   },
 ];
 

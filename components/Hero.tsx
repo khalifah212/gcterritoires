@@ -380,49 +380,30 @@ export default function HomePage() {
 
 
 
+{/* CTA */}
 
-      {/* CTA */}
+<section className="border-t border-[#ececec] bg-white">
+  <div className="mx-auto flex max-w-5xl flex-col items-center px-6 py-32 text-center">
 
-      <section>
+    <h2 className="max-w-3xl text-4xl font-medium leading-tight tracking-[-0.05em] text-[#111111] lg:text-5xl">
+      Un projet territorial à faire avancer&nbsp;?
+    </h2>
 
+    <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5f5f5f]">
+      Échangeons sur vos enjeux de développement, d’implantation ou de
+      transformation territoriale.
+    </p>
 
-        <div className="mx-auto max-w-4xl px-6 py-28 text-center">
+    <a
+      href="/contact"
+      className="mt-12 inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
+    >
+      Échanger sur votre projet
+      <ArrowRight size={18} />
+    </a>
 
-
-          <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111] lg:text-5xl">
-
-            Un projet territorial à faire avancer ?
-
-          </h2>
-
-
-
-          <p className="mt-8 text-lg leading-8 text-gray-600">
-
-            Échangeons sur vos enjeux de développement,
-            d’implantation ou de transformation territoriale.
-
-          </p>
-
-
-
-          <a
-            href="/contact"
-            className="mt-12 inline-flex items-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
-          >
-
-            Échanger sur votre projet
-
-            <ArrowRight size={18}/>
-
-          </a>
-
-
-        </div>
-
-
-      </section>
-
+  </div>
+</section>
 
     </main>
 

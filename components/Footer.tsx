@@ -123,7 +123,7 @@ export default function Footer() {
 
 
               <a
-                href="/cabinet"
+                href="/Notre-approche"
                 className="
                   text-gray-600
                   transition-colors
@@ -151,14 +151,14 @@ export default function Footer() {
 
 
               <a
-                href="/fondateur"
+                href="/Gabriel-Cruzillac"
                 className="
                   text-gray-600
                   transition-colors
                   hover:text-[#8F1D1D]
                 "
               >
-                Le fondateur
+                Gabriel Cruzillac
               </a>
 
 
