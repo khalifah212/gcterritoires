@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   category: "Business",
 
   alternates: {
-    canonical: "/",
+    canonical: "https://gcterritoires.fr",
   },
 
   robots: {
