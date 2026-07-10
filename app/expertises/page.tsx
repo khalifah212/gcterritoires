@@ -442,7 +442,7 @@ export default function ExpertisesPage() {
 
 
             <Link
-              href="/approche"
+              href="/Notre-approche"
               className="inline-flex items-center gap-3 font-medium text-[#8F1D1D]"
             >
               Découvrir notre approche
@@ -458,77 +458,71 @@ export default function ExpertisesPage() {
 
 
 
+{/* FAQ */}
 
-      {/* FAQ */}
+<section className="bg-[#fcfcfb]">
 
-      <section className="bg-[#fcfcfb]">
+  <div className="mx-auto max-w-5xl px-6 py-24">
 
-        <div className="mx-auto max-w-5xl px-6 py-24">
+    {/* Titre */}
+    <div className="mx-auto max-w-3xl text-center">
 
-          <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111]">
-            Questions fréquentes sur nos expertises
-          </h2>
+      <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111] lg:text-5xl">
+        Questions fréquentes sur nos expertises
+      </h2>
 
+    </div>
 
-          <div className="mt-10 space-y-10">
+    {/* Questions */}
+    <div className="mx-auto mt-20 max-w-3xl">
 
+      <article className="mb-16 text-center">
 
-            <div>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Quels types de projets accompagne GC Territoires ?
+        </h3>
 
-              <h3 className="text-xl font-medium text-[#111]">
-                Quels types de projets accompagne GC Territoires ?
-              </h3>
+        <p className="mt-6 text-lg leading-9 text-[#5f5f5f]">
+          GC Territoires accompagne les projets de développement
+          territorial, d’implantation, d’aménagement, de stratégie
+          foncière et de relations institutionnelles.
+        </p>
 
+      </article>
 
-              <p className="mt-3 leading-8 text-gray-600">
-                GC Territoires accompagne les projets de développement
-                territorial, d’implantation, d’aménagement, de stratégie
-                foncière et de relations institutionnelles.
-              </p>
+      <article className="mb-16 text-center">
 
-            </div>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Avec quels acteurs travaillez-vous ?
+        </h3>
 
+        <p className="mt-6 text-lg leading-9 text-[#5f5f5f]">
+          Le cabinet accompagne les collectivités territoriales,
+          les entreprises, les investisseurs, les opérateurs
+          immobiliers et les aménageurs dans leurs projets stratégiques.
+        </p>
 
+      </article>
 
-            <div>
+      <article className="text-center">
 
-              <h3 className="text-xl font-medium text-[#111]">
-                Avec quels acteurs travaillez-vous ?
-              </h3>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Pourquoi intégrer une approche territoriale ?
+        </h3>
 
+        <p className="mt-6 text-lg leading-9 text-[#5f5f5f]">
+          Une approche territoriale permet de mieux comprendre les
+          dynamiques locales, d’anticiper les contraintes et de créer
+          les conditions favorables à la réussite des projets.
+        </p>
 
-              <p className="mt-3 leading-8 text-gray-600">
-                Le cabinet accompagne collectivités territoriales,
-                entreprises, investisseurs, opérateurs immobiliers et
-                aménageurs dans leurs projets stratégiques.
-              </p>
+      </article>
 
-            </div>
+    </div>
 
+  </div>
 
-
-            <div>
-
-              <h3 className="text-xl font-medium text-[#111]">
-                Pourquoi intégrer une approche territoriale ?
-              </h3>
-
-
-              <p className="mt-3 leading-8 text-gray-600">
-                Une approche territoriale permet de mieux comprendre les
-                dynamiques locales, anticiper les contraintes et créer les
-                conditions favorables à la réussite des projets.
-              </p>
-
-            </div>
-
-
-          </div>
-
-        </div>
-
-      </section>
-
+</section>
 
 
 

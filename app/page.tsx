@@ -140,83 +140,72 @@ export default function HomePage() {
       <SectorSection />
 
 
+{/* FAQ SEO */}
 
-      {/* FAQ SEO */}
+<section
+  className="border-t border-[#ececec] bg-white"
+  aria-labelledby="faq-title"
+>
+  <div className="mx-auto max-w-5xl px-6 py-24">
 
-      <section
-        className="border-t border-[#ececec] bg-white"
-        aria-labelledby="faq-title"
+    {/* Titre */}
+    <div className="mx-auto max-w-3xl text-center">
+      <h2
+        id="faq-title"
+        className="text-4xl lg:text-5xl font-medium tracking-[-0.05em] text-[#111]"
       >
+        Questions fréquentes
+      </h2>
 
-        <div className="mx-auto max-w-5xl px-6 py-24">
+      <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+        Retrouvez les réponses aux principales questions concernant notre
+        accompagnement des projets territoriaux.
+      </p>
+    </div>
 
-          <h2
-            id="faq-title"
-            className="text-4xl font-semibold tracking-tight text-[#111111]"
-          >
-            Questions fréquentes
-          </h2>
+    {/* Questions */}
+    <div className="mx-auto mt-20 max-w-3xl text-center space-y-16">
 
+      <article>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Pourquoi faire appel à un cabinet de conseil territorial ?
+        </h3>
 
-          <div className="mt-12 space-y-10">
+        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+          Un cabinet spécialisé accompagne les collectivités et acteurs privés
+          dans la définition de stratégies adaptées aux enjeux économiques,
+          fonciers, institutionnels et territoriaux.
+        </p>
+      </article>
 
+      <article>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Quels types de projets accompagne GC Territoires ?
+        </h3>
 
-            <article>
+        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+          GC Territoires intervient sur les projets d’aménagement,
+          d’implantation, de développement territorial, de dialogue
+          institutionnel et de valorisation des opportunités foncières.
+        </p>
+      </article>
 
-              <h3 className="text-xl font-medium text-[#111111]">
-                Pourquoi faire appel à un cabinet de conseil territorial ?
-              </h3>
+      <article>
+        <h3 className="text-2xl font-medium tracking-[-0.03em] text-[#111]">
+          Avec quels acteurs travaillez-vous ?
+        </h3>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Un cabinet spécialisé accompagne les collectivités et acteurs
-                privés dans la définition de stratégies adaptées aux enjeux
-                économiques, fonciers, institutionnels et territoriaux.
-              </p>
+        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+          Nous accompagnons les collectivités territoriales, entreprises,
+          investisseurs, aménageurs et opérateurs immobiliers dans leurs
+          stratégies de développement.
+        </p>
+      </article>
 
-            </article>
+    </div>
 
-
-
-            <article>
-
-              <h3 className="text-xl font-medium text-[#111111]">
-                Quels types de projets accompagne GC Territoires ?
-              </h3>
-
-              <p className="mt-4 leading-8 text-gray-600">
-                GC Territoires intervient sur les projets d’aménagement,
-                d’implantation, de développement territorial, de dialogue
-                institutionnel et de valorisation des opportunités foncières.
-              </p>
-
-            </article>
-
-
-
-            <article>
-
-              <h3 className="text-xl font-medium text-[#111111]">
-                Avec quels acteurs travaillez-vous ?
-              </h3>
-
-              <p className="mt-4 leading-8 text-gray-600">
-                Nous accompagnons les collectivités territoriales,
-                entreprises, investisseurs, aménageurs et opérateurs
-                immobiliers dans leurs stratégies de développement.
-              </p>
-
-            </article>
-
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-
+  </div>
+</section>
       {/* CTA FINAL */}
 
       <section className="border-t border-[#ececec] bg-white">
