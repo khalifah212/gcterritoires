@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://gcterritoires.fr"),
 
   title: {
     default: "GC Territoires | Conseil en développement territorial",
@@ -107,7 +107,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "TON_CODE_GOOGLE_SEARCH_CONSOLE",
+    google: "eFlnUo0XhRVVURIjnnYcWhBXnlKT5fUpHaFSeQ9KExg",
   },
 };
 
