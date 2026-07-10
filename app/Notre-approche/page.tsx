@@ -4,8 +4,6 @@ import Script from "next/script";
 import { ArrowRight } from "lucide-react";
 
 
-/* ---------------- SEO ---------------- */
-
 export const metadata: Metadata = {
   title:
     "Notre approche | Conseil en développement territorial | GC Territoires",
@@ -36,7 +34,6 @@ export const metadata: Metadata = {
 };
 
 
-
 export default function ApproachPage() {
 
 
@@ -44,10 +41,8 @@ const steps = [
 {
 number:"01",
 title:"Comprendre",
-
 intro:
 "Analyser les dynamiques territoriales, économiques et institutionnelles pour poser un diagnostic stratégique précis.",
-
 text:
 "Identifier les acteurs clés, les enjeux fonciers, les contraintes réglementaires et les opportunités afin de construire une vision partagée du projet.",
 },
@@ -55,10 +50,8 @@ text:
 {
 number:"02",
 title:"Connecter",
-
 intro:
 "Créer les conditions du dialogue entre acteurs publics, privés et institutionnels.",
-
 text:
 "Le cabinet facilite les échanges entre parties prenantes, aligne les intérêts et accompagne la prise de décision collective.",
 },
@@ -66,10 +59,8 @@ text:
 {
 number:"03",
 title:"Concrétiser",
-
 intro:
 "Transformer les intentions stratégiques en projets opérationnels.",
-
 text:
 "Accompagner la mise en œuvre des projets jusqu'à leur réalisation en sécurisant les dimensions stratégiques, juridiques et opérationnelles.",
 },
@@ -81,42 +72,31 @@ return (
 <main className="bg-[#fcfcfb]">
 
 
-{/* FAQ SCHEMA */}
-
 <Script
 id="approach-faq-schema"
 type="application/ld+json"
 dangerouslySetInnerHTML={{
 __html:JSON.stringify({
-
 "@context":"https://schema.org",
-
 "@type":"FAQPage",
-
 "mainEntity":[
-
 {
 "@type":"Question",
 "name":"Quelle est l'approche de GC Territoires ?",
-
 "acceptedAnswer":{
 "@type":"Answer",
 "text":"GC Territoires applique une méthode en trois étapes : comprendre les enjeux territoriaux, connecter les acteurs publics et privés, puis concrétiser les projets."
 }
 },
-
 {
 "@type":"Question",
 "name":"Pourquoi faire appel à un cabinet de conseil territorial ?",
-
 "acceptedAnswer":{
 "@type":"Answer",
 "text":"Un cabinet de conseil territorial permet de structurer les projets, faciliter le dialogue entre acteurs et sécuriser leur mise en œuvre."
 }
 }
-
 ]
-
 })
 }}
 />
@@ -127,12 +107,12 @@ __html:JSON.stringify({
 
 <section>
 
-<div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
+<div className="mx-auto max-w-7xl px-6 py-24 text-center lg:px-8 lg:py-36 lg:text-left">
 
-<div className="max-w-4xl">
+<div className="mx-auto max-w-4xl lg:mx-0">
 
 
-<div className="inline-flex items-center gap-3">
+<div className="flex items-center justify-center gap-3 lg:justify-start">
 
 <span className="h-px w-10 bg-[#8F1D1D]" />
 
@@ -144,7 +124,7 @@ Notre approche
 
 
 
-<h1 className="mt-8 text-[3.2rem] font-medium leading-[0.95] tracking-[-0.065em] text-[#111] sm:text-6xl lg:text-[5rem]">
+<h1 className="mt-8 text-[3rem] font-medium leading-[0.95] tracking-[-0.065em] text-[#111] sm:text-6xl lg:text-[5rem]">
 
 Une méthode structurée.
 
@@ -158,7 +138,7 @@ Des projets territoriaux maîtrisés.
 
 
 
-<p className="mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f]">
+<p className="mx-auto mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f] lg:mx-0">
 
 GC Territoires accompagne les collectivités territoriales,
 entreprises et aménageurs selon une approche structurée permettant
@@ -186,12 +166,7 @@ les projets de développement territorial.
 <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
 
 
-<h2 className="sr-only">
-Méthode d'accompagnement territorial en trois étapes
-</h2>
-
-
-<div className="grid gap-12 lg:grid-cols-3">
+<div className="grid gap-12 text-center lg:grid-cols-3 lg:text-left">
 
 
 {steps.map((step,index)=>(
@@ -251,10 +226,10 @@ index !== 0
 
 <section className="border-y border-[#ececec] bg-white">
 
-<div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+<div className="mx-auto max-w-7xl px-6 py-24 text-center lg:px-8 lg:py-32 lg:text-left">
 
 
-<div className="max-w-4xl">
+<div className="mx-auto max-w-4xl lg:mx-0">
 
 
 <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111] lg:text-5xl">
@@ -287,7 +262,7 @@ leurs projets d’aménagement, d’implantation et de développement.
 
 {/* POSITIONNEMENT */}
 
-<section className="bg-white border-y border-[#ececec]">
+<section className="border-y border-[#ececec] bg-white">
 
 
 <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
@@ -296,10 +271,10 @@ leurs projets d’aménagement, d’implantation et de développement.
 <div className="grid gap-16 lg:grid-cols-[1fr_0.8fr]">
 
 
-<div>
+<div className="text-center lg:text-left">
 
 
-<div className="inline-flex items-center gap-3">
+<div className="flex justify-center gap-3 lg:justify-start">
 
 <span className="h-px w-10 bg-[#8F1D1D]" />
 
@@ -327,7 +302,7 @@ et du privé.
 
 
 
-<p className="mt-8 max-w-xl text-lg leading-8 text-gray-600">
+<p className="mx-auto mt-8 max-w-xl text-lg leading-8 text-gray-600 lg:mx-0">
 
 GC Territoires agit comme un tiers de confiance pour structurer
 les projets, faciliter les échanges et accélérer leur mise en œuvre.
@@ -337,7 +312,7 @@ les projets, faciliter les échanges et accélérer leur mise en œuvre.
 
 <Link
 href="/expertises"
-className="mt-8 inline-flex items-center gap-2 text-[#8F1D1D] font-medium"
+className="mt-8 inline-flex items-center gap-2 font-medium text-[#8F1D1D]"
 >
 Découvrir nos expertises
 <ArrowRight size={18}/>
@@ -349,7 +324,8 @@ Découvrir nos expertises
 
 
 
-<div className="rounded-3xl border border-[#ececec] bg-[#fcfcfb] p-10">
+
+<div className="rounded-3xl border border-[#ececec] bg-[#fcfcfb] p-10 text-center lg:text-left">
 
 
 <div className="h-px w-10 bg-[#8F1D1D]" />

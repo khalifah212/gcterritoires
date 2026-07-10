@@ -23,9 +23,9 @@ export default function ContactPage() {
 
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
 
-          <div className="max-w-5xl">
+          <div className="max-w-5xl text-center lg:text-left">
 
-            <div className="inline-flex items-center gap-3">
+            <div className="flex items-center justify-center gap-3 lg:justify-start">
 
               <span className="h-px w-10 bg-[#8F1D1D]" />
 
@@ -49,7 +49,7 @@ export default function ContactPage() {
             </h1>
 
 
-            <p className="mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f]">
+            <p className="mx-auto mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f] lg:mx-0">
 
               GC Territoires accompagne collectivités, entreprises,
               investisseurs et opérateurs dans leurs projets de développement,
@@ -81,7 +81,7 @@ export default function ContactPage() {
 
             {/* FORMULAIRE */}
 
-            <div>
+            <div className="text-center lg:text-left">
 
 
               <h2 className="text-3xl font-medium tracking-[-0.04em] text-[#111]">
@@ -112,10 +112,10 @@ export default function ContactPage() {
             <aside>
 
 
-              <div className="rounded-3xl border border-[#ececec] bg-[#fcfcfb] p-8 lg:p-10">
+              <div className="rounded-3xl border border-[#ececec] bg-[#fcfcfb] p-8 text-center lg:p-10 lg:text-left">
 
 
-                <div className="h-px w-10 bg-[#8F1D1D]" />
+                <div className="mx-auto h-px w-10 bg-[#8F1D1D] lg:mx-0" />
 
 
                 <h3 className="mt-8 text-2xl font-medium tracking-[-0.04em] text-[#111]">
@@ -221,28 +221,37 @@ export default function ContactPage() {
 
 
 
-     {/* CTA FINAL */}
+      {/* CTA FINAL */}
 
-<section className="border-t border-[#ececec] bg-white">
-  <div className="mx-auto flex max-w-5xl flex-col items-center px-6 py-32 text-center">
-    <h2 className="max-w-3xl text-4xl font-medium leading-tight tracking-[-0.05em] text-[#111111] lg:text-5xl">
-      Un projet territorial à faire avancer&nbsp;?
-    </h2>
+      <section className="border-t border-[#ececec] bg-white">
 
-    <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5f5f5f]">
-      Échangeons sur vos enjeux de développement, d’implantation ou de
-      transformation des territoires.
-    </p>
+        <div className="mx-auto flex max-w-5xl flex-col items-center px-6 py-32 text-center">
 
-    <a
-      href="/contact"
-      className="mt-12 inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
-    >
-      Échanger sur votre projet
-      <ArrowRight size={18} />
-    </a>
-  </div>
-</section>
+          <h2 className="max-w-3xl text-4xl font-medium leading-tight tracking-[-0.05em] text-[#111111] lg:text-5xl">
+            Un projet territorial à faire avancer&nbsp;?
+          </h2>
+
+
+          <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5f5f5f]">
+            Échangeons sur vos enjeux de développement, d’implantation ou de
+            transformation des territoires.
+          </p>
+
+
+          <a
+            href="/contact"
+            className="mt-12 inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
+          >
+
+            Échanger sur votre projet
+
+            <ArrowRight size={18} />
+
+          </a>
+
+        </div>
+
+      </section>
 
 
     </main>
@@ -268,7 +277,7 @@ function Info({
 
   return (
 
-    <div className="flex gap-4">
+    <div className="flex justify-center gap-4 text-left lg:justify-start">
 
 
       <div className="mt-1 text-[#8F1D1D]">

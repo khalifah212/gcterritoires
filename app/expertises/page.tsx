@@ -177,9 +177,9 @@ export default function ExpertisesPage() {
       <section>
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
 
-          <div className="max-w-5xl">
+          <div className="max-w-5xl text-center sm:text-left">
 
-            <div className="inline-flex items-center gap-3">
+            <div className="inline-flex items-center justify-center gap-3 sm:justify-start">
               <span className="h-px w-10 bg-[#8F1D1D]" />
 
               <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
@@ -222,7 +222,7 @@ export default function ExpertisesPage() {
 
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
 
-          <div className="max-w-4xl">
+          <div className="max-w-4xl text-center sm:text-left">
 
             <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111] lg:text-5xl">
               Une expertise au croisement
@@ -252,7 +252,7 @@ export default function ExpertisesPage() {
 
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
 
-          <h2 className="mb-12 text-4xl font-medium tracking-[-0.05em] text-[#111]">
+          <h2 className="mb-12 text-center text-4xl font-medium tracking-[-0.05em] text-[#111] sm:text-left">
             Nos domaines d’expertise en développement territorial
           </h2>
 
@@ -263,7 +263,7 @@ export default function ExpertisesPage() {
 
               <article
                 key={item.number}
-                className="rounded-3xl border border-[#ececec] bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+                className="rounded-3xl border border-[#ececec] bg-white p-8 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md sm:text-left"
               >
 
                 <div className="text-xs font-semibold tracking-[0.2em] text-[#8F1D1D]">
@@ -289,7 +289,7 @@ export default function ExpertisesPage() {
 
                       <li
                         key={detail}
-                        className="flex gap-3 text-sm text-gray-700"
+                        className="flex justify-center gap-3 text-sm text-gray-700 sm:justify-start"
                       >
 
                         <span className="mt-2 h-2 w-2 rounded-full bg-[#8F1D1D]" />
@@ -324,9 +324,9 @@ export default function ExpertisesPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
 
 
-          <div className="max-w-3xl">
+          <div className="max-w-3xl text-center sm:text-left">
 
-            <div className="inline-flex items-center gap-3">
+            <div className="inline-flex items-center justify-center gap-3 sm:justify-start">
 
               <span className="h-px w-10 bg-[#8F1D1D]" />
 
@@ -361,10 +361,10 @@ export default function ExpertisesPage() {
 
               <div
                 key={item}
-                className="rounded-2xl border border-[#ececec] bg-[#fcfcfb] p-7"
+                className="rounded-2xl border border-[#ececec] bg-[#fcfcfb] p-7 text-center sm:text-left"
               >
 
-                <div className="flex gap-4">
+                <div className="flex justify-center gap-4 sm:justify-start">
 
                   <span className="mt-2 h-2 w-2 rounded-full bg-[#8F1D1D]" />
 
@@ -422,7 +422,7 @@ export default function ExpertisesPage() {
 
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
 
-          <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-center">
+          <div className="flex flex-col items-center justify-between gap-8 text-center lg:flex-row lg:items-center lg:text-left">
 
 
             <div>
@@ -443,7 +443,7 @@ export default function ExpertisesPage() {
 
             <Link
               href="/Notre-approche"
-              className="inline-flex items-center gap-3 font-medium text-[#8F1D1D]"
+              className="inline-flex items-center justify-center gap-3 font-medium text-[#8F1D1D]"
             >
               Découvrir notre approche
               <ArrowRight size={18} />
