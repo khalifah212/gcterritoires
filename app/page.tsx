@@ -92,7 +92,7 @@ export default function HomePage() {
       {/* INTRO SEO */}
 
       <section
-        className="mx-auto max-w-6xl px-6 py-24"
+        className="mx-auto max-w-6xl px-6 py-24 text-center lg:text-left"
         aria-labelledby="intro-title"
       >
 
