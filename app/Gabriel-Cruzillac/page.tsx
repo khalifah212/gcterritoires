@@ -41,8 +41,8 @@ export default function FounderPage() {
 
       <section>
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-36">
-          <div className="max-w-5xl">
-            <div className="inline-flex items-center gap-3">
+          <div className="mx-auto max-w-5xl text-center lg:mx-0 lg:text-left">
+            <div className="inline-flex items-center justify-center gap-3 lg:justify-start">
               <span className="h-px w-10 bg-[#8F1D1D]" />
 
               <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
@@ -58,7 +58,7 @@ export default function FounderPage() {
               </span>
             </h1>
 
-            <p className="mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f]">
+            <p className="mx-auto mt-10 max-w-[46rem] text-[1.15rem] leading-9 text-[#5f5f5f] lg:mx-0">
               Une expertise au croisement des collectivités territoriales, de
               l’aménagement et du développement des territoires.
             </p>
@@ -88,7 +88,7 @@ export default function FounderPage() {
 
             {/* TEXTE */}
 
-            <div>
+            <div className="text-center lg:text-left">
               <h2 className="text-4xl font-medium tracking-[-0.05em] text-[#111] lg:text-5xl">
                 Une double culture publique
                 <br />
@@ -123,7 +123,7 @@ export default function FounderPage() {
 
               <a
                 href="/contact"
-                className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
+                className="mx-auto mt-10 inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white lg:mx-0"
               >
                 Échanger avec le cabinet
 
@@ -154,7 +154,7 @@ export default function FounderPage() {
             {experiences.map((item) => (
               <div
                 key={item.title}
-                className="rounded-3xl border border-[#ececec] bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+                className="rounded-3xl border border-[#ececec] bg-white p-8 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md lg:text-left"
               >
                 <item.icon size={24} className="text-[#8F1D1D]" />
 
@@ -175,7 +175,7 @@ export default function FounderPage() {
 
       <section className="border-y border-[#ececec] bg-white">
         <div className="mx-auto max-w-5xl px-6 py-28">
-          <div className="border-l-2 border-[#8F1D1D] pl-8">
+          <div className="border-l-0 px-0 text-center lg:border-l-2 lg:border-[#8F1D1D] lg:pl-8 lg:text-left">
             <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
               Vision du cabinet
             </span>
