@@ -138,7 +138,7 @@ export default function FounderPage() {
 
       <section>
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
-          <div className="max-w-4xl">
+          <div className="mx-auto max-w-4xl text-center lg:mx-0 lg:text-left">
             <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
               Parcours
             </span>
