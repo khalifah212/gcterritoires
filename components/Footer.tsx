@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
 
 
-        <div className="grid gap-12 lg:grid-cols-[1.8fr_0.8fr_0.8fr] lg:gap-16">
+        <div className="grid gap-12 text-center lg:grid-cols-[1.8fr_0.8fr_0.8fr] lg:gap-16 lg:text-left">
 
 
 
@@ -59,7 +59,7 @@ export default function Footer() {
 
             {/* SIGNATURE */}
 
-            <div className="mt-8 border-l-2 border-[#8F1D1D] pl-5">
+           <div className="mx-auto mt-8 max-w-fit border-l-2 border-[#8F1D1D] pl-5 text-left">
 
 
               <p className="text-sm font-medium leading-6 text-[#111]">
@@ -294,18 +294,20 @@ export default function Footer() {
 
         <div
           className="
-            mt-16
-            flex
-            flex-col
-            gap-4
-            border-t
-            border-[#ececec]
-            pt-8
-            text-xs
-            text-gray-500
-            md:flex-row
-            md:items-center
-            md:justify-between
+          mt-16
+          flex
+          flex-col
+          items-center
+          gap-4
+          border-t
+          border-[#ececec]
+          pt-8
+          text-center
+          text-xs
+          text-gray-500
+          md:flex-row
+          md:items-center
+          md:justify-between
           "
         >
 
