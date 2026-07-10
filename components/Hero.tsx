@@ -74,7 +74,7 @@ export default function HomePage() {
 
 
 
-              <h1 className="mx-auto mt-8 max-w-5xl text-[3rem] font-medium leading-[0.94] tracking-[-0.065em] text-[#111] sm:text-6xl lg:mx-0 lg:text-[5.4rem]">
+              <h1 className="mx-auto mt-8 max-w-5xl text-[3.2rem] font-medium leading-[0.94] tracking-[-0.065em] text-[#111] sm:text-6xl lg:mx-0 lg:text-[5.4rem]">
 
                 Transformer les enjeux territoriaux
                 <br />
@@ -116,23 +116,31 @@ export default function HomePage() {
 
 
 
-              <div className="mt-14 flex flex-col items-center gap-5 sm:flex-row sm:justify-center lg:justify-start">
+
+              <div className="mt-14 flex flex-col items-center justify-center gap-5 sm:flex-row lg:justify-start">
 
 
                 <a
                   href="/expertises"
                   className="inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
                 >
+
                   Découvrir les expertises
+
                   <ArrowRight size={18}/>
+
                 </a>
+
+
 
 
                 <a
                   href="/contact"
                   className="inline-flex items-center justify-center rounded-full border border-[#d8d8d8] bg-white px-9 py-4 text-[15px] font-medium transition-all duration-300 hover:bg-black hover:text-white"
                 >
+
                   Échanger sur votre projet
+
                 </a>
 
 
@@ -173,6 +181,7 @@ export default function HomePage() {
                         {item.text}
                       </p>
 
+
                     </div>
 
                   ))}
@@ -184,7 +193,98 @@ export default function HomePage() {
               </div>
 
 
+
             </div>
+
+
+
+
+
+            {/* VALEUR AJOUTEE */}
+
+            <aside className="hidden lg:flex">
+
+
+              <div className="w-full max-w-sm rounded-3xl border border-[#ececec] bg-white p-10 shadow-sm">
+
+
+                <div className="h-px w-10 bg-[#8F1D1D]" />
+
+
+
+                <h2 className="mt-8 text-2xl font-medium tracking-[-0.04em]">
+
+                  Notre valeur ajoutée
+
+                </h2>
+
+
+
+
+                <p className="mt-4 text-sm leading-7 text-gray-600">
+
+                  Une approche construite à l’interface des enjeux publics,
+                  privés et territoriaux.
+
+                </p>
+
+
+
+
+
+                <div className="mt-10">
+
+
+                  {values.map((item,index)=>(
+
+                    <div
+                      key={item.number}
+                      className={
+                        index
+                        ? "mt-8 border-t border-[#ececec] pt-8"
+                        : ""
+                      }
+                    >
+
+
+                      <div className="text-xs font-semibold tracking-[0.2em] text-[#8F1D1D]">
+
+                        {item.number}
+
+                      </div>
+
+
+
+                      <h3 className="mt-3 text-xl font-medium">
+
+                        {item.title}
+
+                      </h3>
+
+
+
+                      <p className="mt-3 text-sm leading-7 text-gray-600">
+
+                        {item.text}
+
+                      </p>
+
+
+                    </div>
+
+                  ))}
+
+
+                </div>
+
+
+
+              </div>
+
+
+            </aside>
+
+
 
           </div>
 
@@ -213,7 +313,9 @@ export default function HomePage() {
 
 
               <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
+
                 L’approche GC Territoires
+
               </span>
 
 
@@ -237,6 +339,7 @@ export default function HomePage() {
               </p>
 
 
+
             </div>
 
 
@@ -246,7 +349,9 @@ export default function HomePage() {
 
 
               <h3 className="text-2xl font-medium tracking-[-0.04em]">
+
                 Une double culture
+
               </h3>
 
 
@@ -280,33 +385,22 @@ export default function HomePage() {
 
         <div className="mx-auto flex max-w-5xl flex-col items-center px-6 py-32 text-center">
 
-
           <h2 className="max-w-3xl text-4xl font-medium leading-tight tracking-[-0.05em] text-[#111111] lg:text-5xl">
-
             Un projet territorial à faire avancer ?
-
           </h2>
 
-
           <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5f5f5f]">
-
             Échangeons sur vos enjeux de développement, d’implantation ou de
             transformation territoriale.
-
           </p>
-
 
           <a
             href="/contact"
             className="mt-12 inline-flex items-center justify-center gap-3 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
           >
-
             Échanger sur votre projet
-
             <ArrowRight size={18} />
-
           </a>
-
 
         </div>
 
