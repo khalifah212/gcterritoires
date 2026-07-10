@@ -10,40 +10,44 @@ export default function AboutSection() {
 
           {/* LEFT */}
 
-          <div>
+<div className="text-center lg:text-left">
 
-            <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-[#8F1D1D]" />
-              <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
-                Le cabinet
-              </span>
-            </div>
+  <div className="flex items-center justify-center gap-3 lg:justify-start">
+    <span className="h-px w-10 bg-[#8F1D1D]" />
 
-            <h2 className="mt-8 max-w-4xl text-[3rem] font-medium leading-[0.96] tracking-[-0.06em] text-[#111111] lg:text-[4rem]">
-              Faire émerger les projets.
-              <br />
-              Faciliter les décisions.
-              <br />
-              <span className="text-[#8F1D1D]">
-                Accélérer les territoires.
-              </span>
-            </h2>
+    <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
+      Le cabinet
+    </span>
+  </div>
 
-            <p className="mt-10 max-w-2xl text-[1.15rem] leading-9 text-[#5F5F5F]">
-              GC Territoires accompagne les collectivités territoriales,
-              entreprises, investisseurs et aménageurs dans leurs stratégies
-              de développement, d'implantation et de transformation des territoires.
-            </p>
 
-            <Link
-              href="/expertises"
-              className="mt-14 inline-flex items-center gap-2 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
-            >
-              Découvrir les expertises
-              <ArrowRight size={18} />
-            </Link>
+  <h2 className="mx-auto mt-8 max-w-4xl text-[3rem] font-medium leading-[0.96] tracking-[-0.06em] text-[#111111] lg:mx-0 lg:text-[4rem]">
+    Faire émerger les projets.
+    <br />
+    Faciliter les décisions.
+    <br />
+    <span className="text-[#8F1D1D]">
+      Accélérer les territoires.
+    </span>
+  </h2>
 
-          </div>
+
+  <p className="mx-auto mt-10 max-w-2xl text-[1.15rem] leading-9 text-[#5F5F5F] lg:mx-0">
+    GC Territoires accompagne les collectivités territoriales,
+    entreprises, investisseurs et aménageurs dans leurs stratégies
+    de développement, d'implantation et de transformation des territoires.
+  </p>
+
+
+  <Link
+    href="/expertises"
+    className="mt-14 inline-flex items-center justify-center gap-2 rounded-full bg-[#8F1D1D] px-9 py-4 text-[15px] font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#761818] hover:shadow-lg"
+  >
+    Découvrir les expertises
+    <ArrowRight size={18} />
+  </Link>
+
+</div>
 
           {/* RIGHT */}
 
