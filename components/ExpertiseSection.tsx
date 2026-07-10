@@ -41,9 +41,9 @@ export default function ExpertiseSection() {
 
         {/* Header */}
 
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center lg:mx-0 lg:text-left">
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3 lg:justify-start">
             <span className="h-px w-10 bg-[#8F1D1D]" />
             <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
               Nos expertises
@@ -57,19 +57,22 @@ export default function ExpertiseSection() {
           </h2>
 
           <p className="mt-8 max-w-2xl text-[1.15rem] leading-9 text-[#5F5F5F]">
-            Une approche stratégique, opérationnelle et transversale pour accompagner les acteurs publics et privés dans leurs projets de développement.
+            Une approche stratégique, opérationnelle et transversale pour
+            accompagner les acteurs publics et privés dans leurs projets de
+            développement.
           </p>
 
         </div>
 
+
         {/* Liste */}
 
-        <div className="mt-24 border-t border-[#ECECEC]">
+        <div className="mt-20 border-t border-[#ECECEC] lg:mt-24">
 
           {expertises.map((item) => (
             <div
               key={item.number}
-              className="group grid items-start gap-10 border-b border-[#ECECEC] py-12 transition-all duration-300 hover:pl-4 lg:grid-cols-[110px_1fr_70px]"
+              className="group grid items-start gap-6 border-b border-[#ECECEC] py-10 text-center transition-all duration-300 lg:grid-cols-[110px_1fr_70px] lg:gap-10 lg:py-12 lg:text-left lg:hover:pl-4"
             >
 
               {/* Numéro */}
@@ -78,23 +81,25 @@ export default function ExpertiseSection() {
                 {item.number}
               </span>
 
+
               {/* Contenu */}
 
-              <div>
+              <div className="mx-auto max-w-2xl">
 
                 <h3 className="text-[1.9rem] font-medium tracking-[-0.03em] text-[#111111] transition-colors duration-300 group-hover:text-[#8F1D1D]">
                   {item.title}
                 </h3>
 
-                <p className="mt-5 max-w-2xl leading-8 text-[#666666]">
+                <p className="mt-5 leading-8 text-[#666666]">
                   {item.description}
                 </p>
 
               </div>
 
+
               {/* CTA */}
 
-              <div className="flex justify-start lg:justify-end">
+              <div className="flex justify-center lg:justify-end">
 
                 <Link
                   href="/contact"

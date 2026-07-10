@@ -30,34 +30,20 @@ export default function ApproachSection() {
 
         {/* HEADER */}
 
-        <div className="max-w-4xl">
+        <div className="mx-auto max-w-4xl text-center lg:mx-0 lg:text-left">
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3 lg:justify-start">
 
             <span className="h-px w-10 bg-[#8F1D1D]" />
 
-            <span className="
-              text-[12px]
-              font-semibold
-              uppercase
-              tracking-[0.22em]
-              text-[#8F1D1D]
-            ">
+            <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-[#8F1D1D]">
               Notre approche
             </span>
 
           </div>
 
 
-          <h2 className="
-            mt-8
-            text-[3rem]
-            font-medium
-            leading-[0.96]
-            tracking-[-0.06em]
-            text-[#111111]
-            lg:text-[4rem]
-          ">
+          <h2 className="mt-8 text-[3rem] font-medium leading-[0.96] tracking-[-0.06em] text-[#111111] lg:text-[4rem]">
             Une approche du conseil fondée
             <br />
             sur les territoires, la stratégie
@@ -66,13 +52,7 @@ export default function ApproachSection() {
           </h2>
 
 
-          <p className="
-            mt-10
-            max-w-3xl
-            text-[1.15rem]
-            leading-9
-            text-[#5F5F5F]
-          ">
+          <p className="mt-10 mx-auto max-w-3xl text-[1.15rem] leading-9 text-[#5F5F5F] lg:mx-0">
             GC Territoires accompagne les acteurs publics et privés dans leurs
             projets de développement territorial, d’aménagement du territoire
             et de stratégie foncière.
@@ -82,19 +62,13 @@ export default function ApproachSection() {
             avec les acteurs locaux et la qualité du dialogue entre les parties prenantes.
           </p>
 
-
         </div>
 
 
 
         {/* CARDS */}
 
-        <div className="
-          mt-24
-          grid
-          gap-6
-          lg:grid-cols-3
-        ">
+        <div className="mt-20 grid gap-6 lg:mt-24 lg:grid-cols-3">
 
 
           {values.map((item) => (
@@ -108,44 +82,29 @@ export default function ApproachSection() {
                 border-[#ECECEC]
                 bg-white
                 p-8
-                lg:p-10
+                text-center
                 transition-all
                 duration-300
                 hover:-translate-y-2
                 hover:border-[#8F1D1D]
                 hover:shadow-xl
+                lg:p-10
+                lg:text-left
               "
             >
 
 
-              <span className="
-                text-xs
-                font-semibold
-                tracking-[0.22em]
-                text-[#8F1D1D]
-              ">
+              <span className="text-xs font-semibold tracking-[0.22em] text-[#8F1D1D]">
                 {item.number}
               </span>
 
 
-              <h3 className="
-                mt-8
-                text-[1.65rem]
-                font-medium
-                leading-tight
-                tracking-[-0.03em]
-                text-[#111111]
-              ">
+              <h3 className="mt-8 text-[1.65rem] font-medium leading-tight tracking-[-0.03em] text-[#111111]">
                 {item.title}
               </h3>
 
 
-              <p className="
-                mt-6
-                text-base
-                leading-8
-                text-[#666666]
-              ">
+              <p className="mt-6 text-base leading-8 text-[#666666]">
                 {item.description}
               </p>
 
@@ -157,22 +116,21 @@ export default function ApproachSection() {
                   mt-10
                   inline-flex
                   items-center
+                  justify-center
                   gap-2
                   text-sm
                   font-medium
                   text-[#111111]
                   transition
                   group-hover:text-[#8F1D1D]
+                  lg:justify-start
                 "
               >
                 En savoir plus
 
                 <ArrowRight
                   size={17}
-                  className="
-                    transition-transform
-                    group-hover:translate-x-1
-                  "
+                  className="transition-transform group-hover:translate-x-1"
                 />
 
               </a>
@@ -191,21 +149,26 @@ export default function ApproachSection() {
         {/* QUOTE */}
 
         <div className="
-          mt-32
+          mt-24
           border-l
           border-[#8F1D1D]
-          pl-8
+          pl-6
+          text-center
+          lg:mt-32
           lg:pl-12
+          lg:text-left
         ">
 
 
           <p className="
+            mx-auto
             max-w-5xl
             text-2xl
             font-light
             leading-relaxed
             tracking-[-0.02em]
             text-[#111111]
+            lg:mx-0
             lg:text-4xl
           ">
             « Une approche fondée sur la confiance,
