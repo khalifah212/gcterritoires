@@ -202,10 +202,10 @@ export default function HomePage() {
 
             {/* VALEUR AJOUTEE */}
 
-            <aside className="hidden lg:flex">
+            <aside className="flex justify-center lg:justify-start">
 
 
-              <div className="w-full max-w-sm rounded-3xl border border-[#ececec] bg-white p-10 shadow-sm">
+              <div className="w-full max-w-sm rounded-3xl border border-[#ececec] bg-white p-10 text-center shadow-sm lg:text-left">
 
 
                 <div className="h-px w-10 bg-[#8F1D1D]" />
